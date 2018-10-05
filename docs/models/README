@@ -1,0 +1,18 @@
+#####################################################
+#               Spora project models                #
+#####################################################
+			
+
+* Toolchain Environment:
+             - Eclipse Oxigen v2.0
+
+* Eclipse plugins dependencies:
+     requeriments:
+             - Papyrus UML Modeler v3.2.0
+             - Papyrus extension SysML 1.4 v1.1.0
+     behavior:
+             - Sirius 5
+             - UML Designer 8.
+
+
+#####################################################

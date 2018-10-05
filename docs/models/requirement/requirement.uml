@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_bzHxUAHmEeiKDdt5eME2xA" name="Requirement">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ee40AAHmEeiKDdt5eME2xA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_efNkIAHmEeiKDdt5eME2xA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_exwSYAH2EeiQcbGkhU0FSw" name="Functional">
+      <packagedElement xmi:type="uml:Class" xmi:id="_nFLd8AHyEeiQcbGkhU0FSw" name="REQ001"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_IkwWoAH0EeiQcbGkhU0FSw" name="REQ002"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vDiwwAH0EeiQcbGkhU0FSw" name="REQ003"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_H5KxEAH2EeiQcbGkhU0FSw" name="REQ004" classifierBehavior="_KJc3wAKdEei4WsoEueOtmw">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_KJc3wAKdEei4WsoEueOtmw" name="Interaction1">
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_QmE88AKdEei4WsoEueOtmw" name="Lifeline1" represents="_TBBrgAKUEeiF855AqW9WJA" coveredBy="_hBowcAKdEei4WsoEueOtmw _22ltsAKhEei4WsoEueOtmw _233gEAKhEei4WsoEueOtmw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_RBGsEAKdEei4WsoEueOtmw" name="Lifeline2" represents="_UJH8AgKUEeiF855AqW9WJA"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_b-6dcAKdEei4WsoEueOtmw" name="Spora : BleMgr" coveredBy="_9w5NYAKhEei4WsoEueOtmw _hBpXgAKdEei4WsoEueOtmw _MJJsYAKiEei4WsoEueOtmw _TjvgkAKgEei4WsoEueOtmw _9yIjgAKhEei4WsoEueOtmw _DrzsoAKiEei4WsoEueOtmw _DrzFkAKiEei4WsoEueOtmw _J4Rg0AKgEei4WsoEueOtmw _WStBMAKgEei4WsoEueOtmw _hI7ucAKhEei4WsoEueOtmw _22lGoAKhEei4WsoEueOtmw"/>
+          <lifeline xmi:type="uml:Lifeline" xmi:id="_4vxu0AKfEei4WsoEueOtmw" name="Spora : BLE Interface" coveredBy="_MJKTcAKiEei4WsoEueOtmw _AzqFsAKgEei4WsoEueOtmw _Tju5gAKgEei4WsoEueOtmw _J4SH4AKgEei4WsoEueOtmw _WSsaIAKgEei4WsoEueOtmw _hI8VgAKhEei4WsoEueOtmw _zc-tkAKhEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9w5NYAKhEei4WsoEueOtmw" covered="_b-6dcAKdEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hBowcAKdEei4WsoEueOtmw" name="Message1SendEvent" covered="_QmE88AKdEei4WsoEueOtmw" message="_hBJoQAKdEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hBpXgAKdEei4WsoEueOtmw" name="Message1ReceiveEvent" covered="_b-6dcAKdEei4WsoEueOtmw" message="_hBJoQAKdEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DrzFkAKiEei4WsoEueOtmw" name="BehaviorExecutionSpecification2" covered="_b-6dcAKdEei4WsoEueOtmw" finish="_DrzsoAKiEei4WsoEueOtmw" start="_hBpXgAKdEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MJKTcAKiEei4WsoEueOtmw" name="Message3ReceiveEvent" covered="_4vxu0AKfEei4WsoEueOtmw" message="_MJIeQAKiEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MJJsYAKiEei4WsoEueOtmw" name="Message3SendEvent" covered="_b-6dcAKdEei4WsoEueOtmw" message="_MJIeQAKiEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AzqFsAKgEei4WsoEueOtmw" name="Message1ReceiveEvent" covered="_4vxu0AKfEei4WsoEueOtmw" message="_Azo3kAKgEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Tju5gAKgEei4WsoEueOtmw" name="Message1SendEvent" covered="_4vxu0AKfEei4WsoEueOtmw" message="_TjuScAKgEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TjvgkAKgEei4WsoEueOtmw" name="Message1ReceiveEvent" covered="_b-6dcAKdEei4WsoEueOtmw" message="_TjuScAKgEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9yIjgAKhEei4WsoEueOtmw" covered="_b-6dcAKdEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_DrzsoAKiEei4WsoEueOtmw" name="BehaviorExecutionSpecification2Finish" covered="_b-6dcAKdEei4WsoEueOtmw" execution="_DrzFkAKiEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_J4Rg0AKgEei4WsoEueOtmw" name="Message1SendEvent" covered="_b-6dcAKdEei4WsoEueOtmw" message="_J4Q5wAKgEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_J4SH4AKgEei4WsoEueOtmw" name="Message1ReceiveEvent" covered="_4vxu0AKfEei4WsoEueOtmw" message="_J4Q5wAKgEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WSsaIAKgEei4WsoEueOtmw" name="Message1SendEvent" covered="_4vxu0AKfEei4WsoEueOtmw" message="_WSrMAAKgEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WStBMAKgEei4WsoEueOtmw" name="Message1ReceiveEvent" covered="_b-6dcAKdEei4WsoEueOtmw" message="_WSrMAAKgEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hI7ucAKhEei4WsoEueOtmw" name="Message1SendEvent" covered="_b-6dcAKdEei4WsoEueOtmw" message="_hI7HYAKhEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_hI8VgAKhEei4WsoEueOtmw" name="Message1ReceiveEvent" covered="_4vxu0AKfEei4WsoEueOtmw" message="_hI7HYAKhEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zc-tkAKhEei4WsoEueOtmw" name="Message1SendEvent" covered="_4vxu0AKfEei4WsoEueOtmw" message="_zc9fcAKhEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_22ltsAKhEei4WsoEueOtmw" name="Message1ReceiveEvent" covered="_QmE88AKdEei4WsoEueOtmw" message="_22kfkAKhEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_233gEAKhEei4WsoEueOtmw" name="BehaviorExecutionSpecification1" covered="_QmE88AKdEei4WsoEueOtmw" start="_22ltsAKhEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_22lGoAKhEei4WsoEueOtmw" name="Message1SendEvent" covered="_b-6dcAKdEei4WsoEueOtmw" message="_22kfkAKhEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9w4mUAKhEei4WsoEueOtmw"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_9yB10AKhEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_hBJoQAKdEei4WsoEueOtmw" name="PowerUp" messageSort="asynchCall" receiveEvent="_hBpXgAKdEei4WsoEueOtmw" sendEvent="_hBowcAKdEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_Azo3kAKgEei4WsoEueOtmw" name="Sync" messageSort="asynchCall" receiveEvent="_AzqFsAKgEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_J4Q5wAKgEei4WsoEueOtmw" name="Setup" messageSort="asynchCall" receiveEvent="_J4SH4AKgEei4WsoEueOtmw" sendEvent="_J4Rg0AKgEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_TjuScAKgEei4WsoEueOtmw" name="Ok" messageSort="reply" receiveEvent="_TjvgkAKgEei4WsoEueOtmw" sendEvent="_Tju5gAKgEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_WSrMAAKgEei4WsoEueOtmw" name="Ok" messageSort="reply" receiveEvent="_WStBMAKgEei4WsoEueOtmw" sendEvent="_WSsaIAKgEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_hI7HYAKhEei4WsoEueOtmw" name="AdvertisementStart" messageSort="asynchCall" receiveEvent="_hI8VgAKhEei4WsoEueOtmw" sendEvent="_hI7ucAKhEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_zc9fcAKhEei4WsoEueOtmw" name="Ok" messageSort="reply" sendEvent="_zc-tkAKhEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_22kfkAKhEei4WsoEueOtmw" name="Message1" receiveEvent="_22ltsAKhEei4WsoEueOtmw" sendEvent="_22lGoAKhEei4WsoEueOtmw"/>
+          <message xmi:type="uml:Message" xmi:id="_24CfMAKhEei4WsoEueOtmw" name="Message2" messageSort="reply"/>
+          <message xmi:type="uml:Message" xmi:id="_MJIeQAKiEei4WsoEueOtmw" name="Sync" messageSort="asynchCall" receiveEvent="_MJKTcAKiEei4WsoEueOtmw" sendEvent="_MJJsYAKiEei4WsoEueOtmw"/>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0f0E0AH3EeiQcbGkhU0FSw" name="REQ005"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_F88qEAH4EeiQcbGkhU0FSw" name="REQ006"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_eWIbcAH4EeiQcbGkhU0FSw" name="REQ007"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aaBVwAH5EeiQcbGkhU0FSw" name="REQ008"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_s2Z8EAH6EeiQcbGkhU0FSw" name="REQ009"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xQ_RAAH6EeiQcbGkhU0FSw" name="REQ010"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uNKowAH8EeiQcbGkhU0FSw" name="REQ011"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="__4Ub4AH8EeiQcbGkhU0FSw" name="REQ012"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TPqrEAH9EeiQcbGkhU0FSw" name="REQ013"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vKohIAH9EeiQcbGkhU0FSw" name="REQ014"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fAL6gAH3EeiQcbGkhU0FSw" name="QoS">
+      <packagedElement xmi:type="uml:Class" xmi:id="_eCBFQAH7EeiQcbGkhU0FSw" name="QoS001"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Vz2poAH-EeiQcbGkhU0FSw" name="QoS002"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hJRCsAH-EeiQcbGkhU0FSw" name="QoS003"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0Io2wAH-EeiQcbGkhU0FSw" name="QoS004"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6mUr4AH-EeiQcbGkhU0FSw" name="QoS005"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9wWX4AH-EeiQcbGkhU0FSw" name="QoS006"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_C6_30AH_EeiQcbGkhU0FSw" name="QoS007"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_FCS7gAH_EeiQcbGkhU0FSw" name="QoS008"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WvCqEAH_EeiQcbGkhU0FSw" name="QoS009"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_elnkwAH_EeiQcbGkhU0FSw" name="QoS010"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oSPbEAH_EeiQcbGkhU0FSw" name="QoS011"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CuepUAIAEeiQcbGkhU0FSw" name="QoS012"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_eeZF8AIAEeiQcbGkhU0FSw" name="QoS013"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NHPVAAKREeiF855AqW9WJA" name="Recibir Configuración">
+      <include xmi:type="uml:Include" xmi:id="_pPHeUAKUEeiF855AqW9WJA" addition="_-pw3cAKTEeiF855AqW9WJA"/>
+      <include xmi:type="uml:Include" xmi:id="_6YiygAKWEeiF855AqW9WJA" addition="_6rLiAAKTEeiF855AqW9WJA"/>
+      <include xmi:type="uml:Include" xmi:id="_7r_-cAKWEeiF855AqW9WJA" addition="_FgRcQAKUEeiF855AqW9WJA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_S4tkYAKREeiF855AqW9WJA" name="Detectar Movimiento">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_v-2a0AKWEeiF855AqW9WJA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cvn_IAKREeiF855AqW9WJA" name="Transmitir SporaData">
+      <include xmi:type="uml:Include" xmi:id="_sPLWAAKUEeiF855AqW9WJA" addition="_-pw3cAKTEeiF855AqW9WJA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_mxcCUAKREeiF855AqW9WJA" name="SporaApk"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_pE22cAKREeiF855AqW9WJA" name="SporaUser"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hGBFsAKTEeiF855AqW9WJA" name="Promediar Temperatura"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mr5JEAKTEeiF855AqW9WJA" name="Leer IMU sensor">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2H3SYAKUEeiF855AqW9WJA" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_ubd8gAKWEeiF855AqW9WJA" addition="_19r4IAKTEeiF855AqW9WJA"/>
+      <include xmi:type="uml:Include" xmi:id="_xLksoAKWEeiF855AqW9WJA" addition="_S4tkYAKREeiF855AqW9WJA"/>
+      <include xmi:type="uml:Include" xmi:id="_x0BzwAKWEeiF855AqW9WJA" addition="_hGBFsAKTEeiF855AqW9WJA"/>
+      <include xmi:type="uml:Include" xmi:id="_yQnpIAKWEeiF855AqW9WJA" addition="_wLny4AKTEeiF855AqW9WJA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wLny4AKTEeiF855AqW9WJA" name="Promediar Campo Magnético"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_19r4IAKTEeiF855AqW9WJA" name="Calcular Módulo de Aceleración"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6rLiAAKTEeiF855AqW9WJA" name="Ajustar umbral MOTION_THR"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-pw3cAKTEeiF855AqW9WJA" name="Gestionar enlace BLE"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FgRcQAKUEeiF855AqW9WJA" name="Ajustar perfil de usuario"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TA_2UAKUEeiF855AqW9WJA" memberEnd="_TBBEcQKUEeiF855AqW9WJA _TBBrgAKUEeiF855AqW9WJA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TBAdYAKUEeiF855AqW9WJA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TBBEcAKUEeiF855AqW9WJA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_TBBEcQKUEeiF855AqW9WJA" name="gestionar enlace ble" type="_-pw3cAKTEeiF855AqW9WJA" association="_TA_2UAKUEeiF855AqW9WJA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_TBBrgAKUEeiF855AqW9WJA" name="sporauser" type="_pE22cAKREeiF855AqW9WJA" association="_TA_2UAKUEeiF855AqW9WJA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UJHU8AKUEeiF855AqW9WJA" memberEnd="_UJH8AQKUEeiF855AqW9WJA _UJH8AgKUEeiF855AqW9WJA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UJHU8QKUEeiF855AqW9WJA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UJH8AAKUEeiF855AqW9WJA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_UJH8AQKUEeiF855AqW9WJA" name="gestionar enlace ble" type="_-pw3cAKTEeiF855AqW9WJA" association="_UJHU8AKUEeiF855AqW9WJA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_UJH8AgKUEeiF855AqW9WJA" name="sporaapk" type="_mxcCUAKREeiF855AqW9WJA" association="_UJHU8AKUEeiF855AqW9WJA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MghrkAKXEeiF855AqW9WJA" memberEnd="_MgiSogKXEeiF855AqW9WJA _MgiSowKXEeiF855AqW9WJA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MgiSoAKXEeiF855AqW9WJA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MgiSoQKXEeiF855AqW9WJA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MgiSogKXEeiF855AqW9WJA" name="sporauser" type="_pE22cAKREeiF855AqW9WJA" association="_MghrkAKXEeiF855AqW9WJA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MgiSowKXEeiF855AqW9WJA" name="muestrear" type="_mr5JEAKTEeiF855AqW9WJA" association="_MghrkAKXEeiF855AqW9WJA"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_eew4MAHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eeyGUAHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_eez7gAHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee0ikAHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ee0ikQHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee1JoAHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ee1JoQHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee1JogHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ee1JowHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee1JpAHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ee1wsAHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee1wsQHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ee2XwAHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee2XwQHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ee2XwgHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee2XwwHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ee2-0AHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee2-0QHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ee3l4AHmEeiKDdt5eME2xA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ee3l4QHmEeiKDdt5eME2xA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_nFXrMAHyEeiQcbGkhU0FSw" base_Class="_nFLd8AHyEeiQcbGkhU0FSw" id="001" text="El Spora detectará movimientos con aceleración superior a MOTION_THR."/>
+  <Requirements:Requirement xmi:id="_Ik9K8AH0EeiQcbGkhU0FSw" base_Class="_IkwWoAH0EeiQcbGkhU0FSw" id="002" text="Cuando se detecte una aceleración superior a MOTION_THR el Spora transmitirá inmediatamente un paquete SporaData hacia SporaApk."/>
+  <Requirements:Requirement xmi:id="_vDqskAH0EeiQcbGkhU0FSw" base_Class="_vDiwwAH0EeiQcbGkhU0FSw" id="003" text="Cuando se detecte una aceleración superior a MOTION_THR el Spora encenderá y mantendrá el indicador MOTION_LED durante MOTION_DET_TIME."/>
+  <Requirements:Requirement xmi:id="_H5VJIAH2EeiQcbGkhU0FSw" base_Class="_H5KxEAH2EeiQcbGkhU0FSw" id="004" text="El Spora se vinculará con SporaApk mediante un enlace BLE"/>
+  <Requirements:Requirement xmi:id="_0f8AoAH3EeiQcbGkhU0FSw" base_Class="_0f0E0AH3EeiQcbGkhU0FSw" id="005" text="Cuando el Spora se encuentre vinculado con SporaApk encenderá el indicador BLE_LED"/>
+  <Requirements:Requirement xmi:id="_F9IQQAH4EeiQcbGkhU0FSw" base_Class="_F88qEAH4EeiQcbGkhU0FSw" id="006" text="Cuando el Spora se encuentre en proceso de carga de baterías encenderá el indicador BATTERY_LED"/>
+  <Requirements:Requirement xmi:id="_eWQXQAH4EeiQcbGkhU0FSw" base_Class="_eWIbcAH4EeiQcbGkhU0FSw" id="007" text="Cuando no exista vínculo con SporaApk y no se esté en curso una indicación de detección de movimiento mediante el indicador MOTION_LED, el sistema encenderá en secuencia los indicadores MOTION_LED, BLE_LED y BATTERY_LED cada KEEPALIVE_TIME."/>
+  <Requirements:Requirement xmi:id="_aaJRkAH5EeiQcbGkhU0FSw" base_Class="_aaBVwAH5EeiQcbGkhU0FSw" id="008" text="El Spora recibirá el paquete SporaApkSettings con configuraciones desde el SporaApk."/>
+  <Requirements:Requirement xmi:id="_s2h34AH6EeiQcbGkhU0FSw" base_Class="_s2Z8EAH6EeiQcbGkhU0FSw" id="009" text="El Spora ajustará el umbral MOTION_THR de acuerdo al paquete de configuración SporaApkSettings enviado por SporaApk "/>
+  <Requirements:Requirement xmi:id="_xRIa8AH6EeiQcbGkhU0FSw" base_Class="_xQ_RAAH6EeiQcbGkhU0FSw" id="010" text="Cuando el Spora inicie será descubrible por SporaApk."/>
+  <Requirements:Requirement xmi:id="_gMbuYAH7EeiQcbGkhU0FSw" base_Class="_eCBFQAH7EeiQcbGkhU0FSw" id="001" text="Las configuraciones SporaSettings serán almacendas en memoria no volatil"/>
+  <Requirements:Requirement xmi:id="_uNR9gAH8EeiQcbGkhU0FSw" base_Class="_uNKowAH8EeiQcbGkhU0FSw" id="011" text="Cuando el Spora permanezca sin establecer vínculo con SporaApk durante mas de DISCONNECTED_TIMEOUT dejará de ser descubrible."/>
+  <Requirements:Requirement xmi:id="__4c-wAH8EeiQcbGkhU0FSw" base_Class="__4Ub4AH8EeiQcbGkhU0FSw" id="012" text="Cuando el Spora esté vinculado a SporaApk y se presione PUSH_BUTTON durante mas de SHORT2LONG_BUTT_TIME se desvinculará y permanecerá descubrible."/>
+  <Requirements:Requirement xmi:id="_TPzN8AH9EeiQcbGkhU0FSw" base_Class="_TPqrEAH9EeiQcbGkhU0FSw" id="013" text="Cuando el Spora esté vinculado a SporaApk y se presione PUSH_BUTTON durante menos de SHORT2LONG_BUTT_TIME transmitirá un paquete SporaData a SporaApk"/>
+  <Requirements:Requirement xmi:id="_vKxrEAH9EeiQcbGkhU0FSw" base_Class="_vKohIAH9EeiQcbGkhU0FSw" id="014" text="Cuando el Spora no sea desubrible y se presione PUSH_BUTTON  durante mas de SHORT2LONG_BUTT_TIME será descubrible inmediatamente."/>
+  <Requirements:Requirement xmi:id="_Vz9XUAH-EeiQcbGkhU0FSw" base_Class="_Vz2poAH-EeiQcbGkhU0FSw" id="002" text=" Durante el tiempo de encendido de MOTION_LED, el Spora asegurará el apagado de BLE_LED y BATTERY_LED y restaurará el estado de dichos indicadores previo al evento de movimiento al cabo de MOTION_DET_TIME."/>
+  <Requirements:Requirement xmi:id="_hJYXcAH-EeiQcbGkhU0FSw" base_Class="_hJRCsAH-EeiQcbGkhU0FSw" id="003" text="Durante el encendido del indicador BLE_LED el Spora asegurará el apagado de BATTERY_LED."/>
+  <Requirements:Requirement xmi:id="_0IyAsAH-EeiQcbGkhU0FSw" base_Class="_0Io2wAH-EeiQcbGkhU0FSw" id="004" text="El Spora filtrará el rebote del pulsador PUSH_BUTTON."/>
+  <Requirements:Requirement xmi:id="_6mcAoAH-EeiQcbGkhU0FSw" base_Class="_6mUr4AH-EeiQcbGkhU0FSw" id="005" text="El Spora adoptará el rol de BLE pheripheral device."/>
+  <Requirements:Requirement xmi:id="_9wdFkAH-EeiQcbGkhU0FSw" base_Class="_9wWX4AH-EeiQcbGkhU0FSw" id="006" text="Cuando permanezca oculto, el Spora desactivará la interfaz BLE."/>
+  <Requirements:Requirement xmi:id="_C7KP4AH_EeiQcbGkhU0FSw" base_Class="_C6_30AH_EeiQcbGkhU0FSw" id="007" text="MOTION_DET_TIME será configurable en tiempo de compilación"/>
+  <Requirements:Requirement xmi:id="_FCa3UAH_EeiQcbGkhU0FSw" base_Class="_FCS7gAH_EeiQcbGkhU0FSw" id="008" text="Los valores por defecto de SporaSettings son (definir)."/>
+  <Requirements:Requirement xmi:id="_WvLM8AH_EeiQcbGkhU0FSw" base_Class="_WvCqEAH_EeiQcbGkhU0FSw" id="009" text="Cuando detecte una aceleración superior a MOTION_THR el Spora calculará el módulo de la aceleración en los tres ejes."/>
+  <Requirements:Requirement xmi:id="_elu5gAH_EeiQcbGkhU0FSw" base_Class="_elnkwAH_EeiQcbGkhU0FSw" id="010" text="El Spora adquirirá y promediará el campo magnético."/>
+  <Requirements:Requirement xmi:id="_oSWIwAH_EeiQcbGkhU0FSw" base_Class="_oSPbEAH_EeiQcbGkhU0FSw" id="011" text="El Spora adquirirá y promediará la temperatura."/>
+  <Requirements:Requirement xmi:id="_Cul-EAIAEeiQcbGkhU0FSw" base_Class="_CuepUAIAEeiQcbGkhU0FSw" id="012" text="Los parámetros para el cálculo del promedio serán ajustable por compilación."/>
+  <Requirements:Requirement xmi:id="_eekFEAIAEeiQcbGkhU0FSw" base_Class="_eeZF8AIAEeiQcbGkhU0FSw" id="013" text="El Spora mantendrá el tiempo de operación en memoria no persistente."/>
+</xmi:XMI>

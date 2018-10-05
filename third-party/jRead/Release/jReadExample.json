@@ -1,0 +1,8 @@
+{
+   "astring":"This is a string",
+   "anumber":42,
+   "myarray":[ "zero", 1, {"description":"element 2"}, null ],
+   "yesno":true,
+   "PI":"3.1415926",
+   "foo":null
+}

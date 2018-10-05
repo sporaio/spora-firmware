@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ogQD4AHpEeiu2-I9epjvlw" name="NewModel">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_zu2rQAKiEei4WsoEueOtmw" name="Scenario_0">
+    <ownedAttribute xmi:id="_zLzrwAKmEeiwX8FNi-VDBQ" name="SporaUser" type="_-84ikAKlEeiwX8FNi-VDBQ"/>
+    <ownedAttribute xmi:id="_0-1IkAKmEeiwX8FNi-VDBQ" name="BleInterface" type="_XmnRYAKmEeiwX8FNi-VDBQ"/>
+    <ownedAttribute xmi:id="_1q7ZkAKmEeiwX8FNi-VDBQ" name="BleMgr " type="_cGIJoAKmEeiwX8FNi-VDBQ"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_58FFsAKmEeiwX8FNi-VDBQ" name="BleInterfaceInit"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DxedgQKnEeiwX8FNi-VDBQ" name="sync"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OpaQYgKnEeiwX8FNi-VDBQ" name="setupPeripheral"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VA1FcAKnEeiwX8FNi-VDBQ" name="startAdvertisement"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_btPTEAKnEeiwX8FNi-VDBQ" name="BleReady"/>
+    <lifeline xmi:id="_zL0S0AKmEeiwX8FNi-VDBQ" name="SporaUser" represents="_zLzrwAKmEeiwX8FNi-VDBQ" coveredBy="_58FswAKmEeiwX8FNi-VDBQ _btPTEgKnEeiwX8FNi-VDBQ _btPTEwKnEeiwX8FNi-VDBQ _btPTFAKnEeiwX8FNi-VDBQ"/>
+    <lifeline xmi:id="_1q7ZkQKmEeiwX8FNi-VDBQ" name="BleMgr " represents="_1q7ZkAKmEeiwX8FNi-VDBQ" coveredBy="_58FswQKmEeiwX8FNi-VDBQ _58FswgKmEeiwX8FNi-VDBQ _58FswwKmEeiwX8FNi-VDBQ _DxedgwKnEeiwX8FNi-VDBQ _DxfEkAKnEeiwX8FNi-VDBQ _Opa3cQKnEeiwX8FNi-VDBQ _Opa3dQKnEeiwX8FNi-VDBQ _VA1FcgKnEeiwX8FNi-VDBQ _VA1sgQKnEeiwX8FNi-VDBQ _btPTEQKnEeiwX8FNi-VDBQ"/>
+    <lifeline xmi:id="_0-1IkQKmEeiwX8FNi-VDBQ" name="BleInterface" represents="_0-1IkAKmEeiwX8FNi-VDBQ" coveredBy="_DxedhAKnEeiwX8FNi-VDBQ _DxedhgKnEeiwX8FNi-VDBQ _DxedhQKnEeiwX8FNi-VDBQ _Opa3cgKnEeiwX8FNi-VDBQ _Opa3dAKnEeiwX8FNi-VDBQ _Opa3cwKnEeiwX8FNi-VDBQ _VA1FcwKnEeiwX8FNi-VDBQ _VA1sgAKnEeiwX8FNi-VDBQ _VA1FdAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_58FswAKmEeiwX8FNi-VDBQ" name="PowerUp_sender" covered="_zL0S0AKmEeiwX8FNi-VDBQ" message="_58EeoAKmEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_58FswQKmEeiwX8FNi-VDBQ" name="PowerUp_receiver" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" message="_58EeoAKmEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_58FswgKmEeiwX8FNi-VDBQ" name="BleInterfaceInit" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" finish="_58FswwKmEeiwX8FNi-VDBQ" start="_58FswQKmEeiwX8FNi-VDBQ" behavior="_58FFsAKmEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DxedgwKnEeiwX8FNi-VDBQ" name="Sync_sender" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" message="_DxedgAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DxedhAKnEeiwX8FNi-VDBQ" name="Sync_receiver" covered="_0-1IkQKmEeiwX8FNi-VDBQ" message="_DxedgAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DxedhgKnEeiwX8FNi-VDBQ" name="sync" covered="_0-1IkQKmEeiwX8FNi-VDBQ" finish="_DxedhQKnEeiwX8FNi-VDBQ" start="_DxedhAKnEeiwX8FNi-VDBQ" behavior="_DxedgQKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DxedhQKnEeiwX8FNi-VDBQ" name="Ok_sender" covered="_0-1IkQKmEeiwX8FNi-VDBQ" message="_DxedggKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DxfEkAKnEeiwX8FNi-VDBQ" name="Ok_receiver" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" message="_DxedggKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Opa3cQKnEeiwX8FNi-VDBQ" name="SetupPeripheral_sender" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" message="_OpaQYQKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Opa3cgKnEeiwX8FNi-VDBQ" name="SetupPeripheral_receiver" covered="_0-1IkQKmEeiwX8FNi-VDBQ" message="_OpaQYQKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Opa3dAKnEeiwX8FNi-VDBQ" name="setupPeripheral" covered="_0-1IkQKmEeiwX8FNi-VDBQ" finish="_Opa3cwKnEeiwX8FNi-VDBQ" start="_Opa3cgKnEeiwX8FNi-VDBQ" behavior="_OpaQYgKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Opa3cwKnEeiwX8FNi-VDBQ" name="Ok_sender" covered="_0-1IkQKmEeiwX8FNi-VDBQ" message="_Opa3cAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Opa3dQKnEeiwX8FNi-VDBQ" name="Ok_receiver" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" message="_Opa3cAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VA1FcgKnEeiwX8FNi-VDBQ" name="StartAdvertisement_sender" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" message="_VA0eYQKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VA1FcwKnEeiwX8FNi-VDBQ" name="StartAdvertisement_receiver" covered="_0-1IkQKmEeiwX8FNi-VDBQ" message="_VA0eYQKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_VA1sgAKnEeiwX8FNi-VDBQ" name="startAdvertisement" covered="_0-1IkQKmEeiwX8FNi-VDBQ" finish="_VA1FdAKnEeiwX8FNi-VDBQ" start="_VA1FcwKnEeiwX8FNi-VDBQ" behavior="_VA1FcAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VA1FdAKnEeiwX8FNi-VDBQ" name="Ok_sender" covered="_0-1IkQKmEeiwX8FNi-VDBQ" message="_VA1FcQKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_VA1sgQKnEeiwX8FNi-VDBQ" name="Ok_receiver" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" message="_VA1FcQKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_btPTEQKnEeiwX8FNi-VDBQ" name="BleReady_sender" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" message="_btOsAAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_btPTEgKnEeiwX8FNi-VDBQ" name="BleReady_receiver" covered="_zL0S0AKmEeiwX8FNi-VDBQ" message="_btOsAAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_btPTEwKnEeiwX8FNi-VDBQ" name="BleReady" covered="_zL0S0AKmEeiwX8FNi-VDBQ" finish="_btPTFAKnEeiwX8FNi-VDBQ" start="_btPTEgKnEeiwX8FNi-VDBQ" behavior="_btPTEAKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_btPTFAKnEeiwX8FNi-VDBQ" name="BleReady_finish" covered="_zL0S0AKmEeiwX8FNi-VDBQ" execution="_btPTEwKnEeiwX8FNi-VDBQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_58FswwKmEeiwX8FNi-VDBQ" name="BleInterfaceInit_finish" covered="_1q7ZkQKmEeiwX8FNi-VDBQ" execution="_58FswgKmEeiwX8FNi-VDBQ"/>
+    <message xmi:id="_58EeoAKmEeiwX8FNi-VDBQ" name="PowerUp" messageSort="asynchCall" receiveEvent="_58FswQKmEeiwX8FNi-VDBQ" sendEvent="_58FswAKmEeiwX8FNi-VDBQ"/>
+    <message xmi:id="_DxedgAKnEeiwX8FNi-VDBQ" name="Sync" receiveEvent="_DxedhAKnEeiwX8FNi-VDBQ" sendEvent="_DxedgwKnEeiwX8FNi-VDBQ" signature="_Dxd2cAKnEeiwX8FNi-VDBQ"/>
+    <message xmi:id="_DxedggKnEeiwX8FNi-VDBQ" name="Ok" messageSort="reply" receiveEvent="_DxfEkAKnEeiwX8FNi-VDBQ" sendEvent="_DxedhQKnEeiwX8FNi-VDBQ"/>
+    <message xmi:id="_OpaQYQKnEeiwX8FNi-VDBQ" name="SetupPeripheral" receiveEvent="_Opa3cgKnEeiwX8FNi-VDBQ" sendEvent="_Opa3cQKnEeiwX8FNi-VDBQ" signature="_OpaQYAKnEeiwX8FNi-VDBQ"/>
+    <message xmi:id="_Opa3cAKnEeiwX8FNi-VDBQ" name="Ok" messageSort="reply" receiveEvent="_Opa3dQKnEeiwX8FNi-VDBQ" sendEvent="_Opa3cwKnEeiwX8FNi-VDBQ"/>
+    <message xmi:id="_VA0eYQKnEeiwX8FNi-VDBQ" name="StartAdvertisement" receiveEvent="_VA1FcwKnEeiwX8FNi-VDBQ" sendEvent="_VA1FcgKnEeiwX8FNi-VDBQ" signature="_VA0eYAKnEeiwX8FNi-VDBQ"/>
+    <message xmi:id="_VA1FcQKnEeiwX8FNi-VDBQ" name="Ok" messageSort="reply" receiveEvent="_VA1sgQKnEeiwX8FNi-VDBQ" sendEvent="_VA1FdAKnEeiwX8FNi-VDBQ"/>
+    <message xmi:id="_btOsAAKnEeiwX8FNi-VDBQ" name="BleReady" messageSort="asynchCall" receiveEvent="_btPTEgKnEeiwX8FNi-VDBQ" sendEvent="_btPTEQKnEeiwX8FNi-VDBQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-84ikAKlEeiwX8FNi-VDBQ" name="SporaUser"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Er6h8AKmEeiwX8FNi-VDBQ" name="SporaApk"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XmnRYAKmEeiwX8FNi-VDBQ" name="BleInterface">
+    <ownedOperation xmi:id="_Dxd2cAKnEeiwX8FNi-VDBQ" name="Operation_1"/>
+    <ownedOperation xmi:id="_OpaQYAKnEeiwX8FNi-VDBQ" name="Operation_2"/>
+    <ownedOperation xmi:id="_VA0eYAKnEeiwX8FNi-VDBQ" name="Operation_3"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cGIJoAKmEeiwX8FNi-VDBQ" name="BleMgr ">
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_tQSEYAHpEeiu2-I9epjvlw" name="bleMgr">
+      <region xmi:id="_tdn80AHpEeiu2-I9epjvlw" name="bleMgr">
+        <transition xmi:id="_j5hQoAKqEeiwX8FNi-VDBQ" source="_W2VHIAKqEeiwX8FNi-VDBQ" target="_ZUd9gAKqEeiwX8FNi-VDBQ">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_sqCbUAK7Eeiknsfs-jeQ4w" name="bleInit()"/>
+        </transition>
+        <transition xmi:id="_MxVMEAK1Eeiknsfs-jeQ4w" source="_ZUd9gAKqEeiwX8FNi-VDBQ" target="_h5iD8AKsEeiwX8FNi-VDBQ">
+          <trigger xmi:id="_-ahNcAT3Eei1GM3NUxNacg" name="aftert(INIT_TIME)"/>
+          <trigger xmi:id="_jhYvwAVjEeit67JRAsgWRA" name="evCmdTout"/>
+        </transition>
+        <transition xmi:id="_q_97oAK6Eeiknsfs-jeQ4w" source="_ZUd9gAKqEeiwX8FNi-VDBQ" target="_2HCWsAK6Eeiknsfs-jeQ4w">
+          <trigger xmi:id="_rz7IIAK6Eeiknsfs-jeQ4w" name="evOk"/>
+        </transition>
+        <transition xmi:id="_7Qdf4ALAEeiknsfs-jeQ4w" source="_2HCWsAK6Eeiknsfs-jeQ4w">
+          <trigger xmi:id="_eshlsAV7Eeit67JRAsgWRA" name="evStopAdvertising"/>
+        </transition>
+        <transition xmi:id="_azTbkALBEeiknsfs-jeQ4w" target="_2HCWsAK6Eeiknsfs-jeQ4w">
+          <trigger xmi:id="_gHEREAV7Eeit67JRAsgWRA" name="evStartAdvertising"/>
+        </transition>
+        <transition xmi:id="_eQ2E0Ad0EeiVZe6039K0-w" source="_2HCWsAK6Eeiknsfs-jeQ4w" target="_Y-SmEAd0EeiVZe6039K0-w">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_szICgAd0EeiVZe6039K0-w" name="stopAdvertising()"/>
+          <trigger xmi:id="_jzU18Ad0EeiVZe6039K0-w" name="evStopAdvertising"/>
+        </transition>
+        <transition xmi:id="_e7BDMAd0EeiVZe6039K0-w" source="_Y-SmEAd0EeiVZe6039K0-w" target="_2HCWsAK6Eeiknsfs-jeQ4w">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_uCnUcAd0EeiVZe6039K0-w" name="startAdvertising()"/>
+          <trigger xmi:id="_lRMiIAd0EeiVZe6039K0-w" name="evStartAdvertising"/>
+        </transition>
+        <transition xmi:id="_IApHoAfAEeicwMZx6sE2Ig" source="_h5iD8AKsEeiwX8FNi-VDBQ" target="_h5iD8AKsEeiwX8FNi-VDBQ">
+          <trigger xmi:id="_QJ4foAfAEeicwMZx6sE2Ig" name="after(FAILURE_PERIOD)"/>
+        </transition>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_W2VHIAKqEeiwX8FNi-VDBQ" name="Initial1"/>
+        <subvertex xmi:type="uml:State" xmi:id="_ZUd9gAKqEeiwX8FNi-VDBQ" name="init">
+          <region xmi:id="_ikqDkAK3Eeiknsfs-jeQ4w" name="Starting">
+            <transition xmi:id="_hpoJQAK4Eeiknsfs-jeQ4w" source="_JLCv8AK3Eeiknsfs-jeQ4w" target="_Dw1xEAK3Eeiknsfs-jeQ4w"/>
+            <transition xmi:id="__HIwIAK4Eeiknsfs-jeQ4w" kind="internal" source="_Dw1xEAK3Eeiknsfs-jeQ4w" target="_Dw1xEAK3Eeiknsfs-jeQ4w">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_HRtk4gK5Eeiknsfs-jeQ4w" name=" sendSync()"/>
+              <trigger xmi:id="_HRtk4wK5Eeiknsfs-jeQ4w" name="evCmdTout"/>
+            </transition>
+            <transition xmi:id="_lpnXcAK5Eeiknsfs-jeQ4w" source="_Dw1xEAK3Eeiknsfs-jeQ4w" target="_BCYAsAKsEeiwX8FNi-VDBQ">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_rFE6kAK5Eeiknsfs-jeQ4w" name=" sendReset()"/>
+              <trigger xmi:id="_m-bOQAK5Eeiknsfs-jeQ4w" name="evOk"/>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_Dw1xEAK3Eeiknsfs-jeQ4w" name="waitSync">
+              <entry xmi:type="uml:OpaqueBehavior" xmi:id="_V8vh0AUdEei1GM3NUxNacg" name="sendSync()"/>
+            </subvertex>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_JLCv8AK3Eeiknsfs-jeQ4w" name="Initial2"/>
+            <subvertex xmi:type="uml:State" xmi:id="_BCYAsAKsEeiwX8FNi-VDBQ" name="reseting"/>
+          </region>
+        </subvertex>
+        <subvertex xmi:type="uml:State" xmi:id="_h5iD8AKsEeiwX8FNi-VDBQ" name="failure">
+          <entry xmi:type="uml:OpaqueBehavior" xmi:id="_gj-moAVnEeit67JRAsgWRA" name="bleError()"/>
+        </subvertex>
+        <subvertex xmi:type="uml:State" xmi:id="_2HCWsAK6Eeiknsfs-jeQ4w" name="running">
+          <region xmi:id="_IpF8oAK7Eeiknsfs-jeQ4w" name="AdvertisementOn">
+            <transition xmi:id="_MrSKQAK8Eeiknsfs-jeQ4w" source="_K4c6sAK8Eeiknsfs-jeQ4w"/>
+            <transition xmi:id="_1RXBAAK8Eeiknsfs-jeQ4w">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_1P3Z8ALBEeiknsfs-jeQ4w" name="bleIsConnected()"/>
+              <trigger xmi:id="_OrgrgAT_Eei1GM3NUxNacg" name="evConnected"/>
+            </transition>
+            <transition xmi:id="_15610AK8Eeiknsfs-jeQ4w" source="_vNVvEATrEei1GM3NUxNacg" target="_5Gr5QAXcEei64r585RhGNQ">
+              <trigger xmi:id="_TbPLIAXdEei64r585RhGNQ" name="evOk"/>
+              <trigger xmi:id="_YOM8YAe1EeicwMZx6sE2Ig" name="evCmdTout"/>
+            </transition>
+            <transition xmi:id="_54zzoALEEeiknsfs-jeQ4w">
+              <trigger xmi:id="_J_KzMALFEeiknsfs-jeQ4w" name="after(DISCONECTED_TIMEOUT)"/>
+            </transition>
+            <transition xmi:id="_h0Nw0AT2Eei1GM3NUxNacg" source="_5Gr5QAXcEei64r585RhGNQ" target="_vNVvEATrEei1GM3NUxNacg">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_jhLo8AT2Eei1GM3NUxNacg" name="sendGetConnStatus()"/>
+              <trigger xmi:id="_gFf9EAV2Eeit67JRAsgWRA" name="after(CONNSTATUS_CHKTIME)"/>
+            </transition>
+            <transition xmi:id="_CZXzIAW9Eei64r585RhGNQ">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_F4ryoAW9Eei64r585RhGNQ" name="sendDisconnect();"/>
+              <trigger xmi:id="_F4sZsAW9Eei64r585RhGNQ" name="evForceDisconnect"/>
+            </transition>
+            <transition xmi:id="_aDRPEAXdEei64r585RhGNQ" source="_K4c6sAK8Eeiknsfs-jeQ4w" target="_5Gr5QAXcEei64r585RhGNQ"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_K4c6sAK8Eeiknsfs-jeQ4w" name="Initial1"/>
+            <subvertex xmi:type="uml:State" xmi:id="_vNVvEATrEei1GM3NUxNacg" name="waitConnStatus"/>
+            <subvertex xmi:type="uml:State" xmi:id="_5Gr5QAXcEei64r585RhGNQ" name="idle"/>
+          </region>
+        </subvertex>
+        <subvertex xmi:type="uml:State" xmi:id="_Y-SmEAd0EeiVZe6039K0-w" name="pause"/>
+      </region>
+    </ownedBehavior>
+    <ownedOperation xmi:id="_gbhzoAXHEei64r585RhGNQ" name="Operation_1"/>
+    <ownedOperation xmi:id="_9OsnkAXIEei64r585RhGNQ" name="Operation_2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_CG6loAXHEei64r585RhGNQ" name="SporaBleMgr">
+    <ownedAttribute xmi:id="_QZwZIAXHEei64r585RhGNQ" name="BleMgr " type="_cGIJoAKmEeiwX8FNi-VDBQ"/>
+    <ownedAttribute xmi:id="_Q96PEAXHEei64r585RhGNQ" name="Spora" type="_Q95A8AXHEei64r585RhGNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UC8GUAXHEei64r585RhGNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UC8tYAXHEei64r585RhGNQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_GdEXcgXQEei64r585RhGNQ" name="Pushbutton" type="_GdEXcAXQEei64r585RhGNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KsdJAAXQEei64r585RhGNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KsdwEAXQEei64r585RhGNQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_XNdLcQXQEei64r585RhGNQ" name="LedMgr" type="_XNckYAXQEei64r585RhGNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZzvRMAXQEei64r585RhGNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zzv4QAXQEei64r585RhGNQ" value="1"/>
+    </ownedAttribute>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1RbEcQXHEei64r585RhGNQ" name="Operation_1"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9OtOoQXIEei64r585RhGNQ" name="Operation_2"/>
+    <lifeline xmi:id="_Q95oAAXHEei64r585RhGNQ" name="Spora : Spora [1]" represents="_Q96PEAXHEei64r585RhGNQ" coveredBy="_1RbEcwXHEei64r585RhGNQ _1RbEdAXHEei64r585RhGNQ _1RbrgAXHEei64r585RhGNQ _9OtOogXIEei64r585RhGNQ"/>
+    <lifeline xmi:id="_QZwZIQXHEei64r585RhGNQ" name="BleMgr " represents="_QZwZIAXHEei64r585RhGNQ" coveredBy="_1RbEcgXHEei64r585RhGNQ _9Ot1sAXIEei64r585RhGNQ _9Ot1sQXIEei64r585RhGNQ _9Ot1sgXIEei64r585RhGNQ"/>
+    <lifeline xmi:id="_GdEXcQXQEei64r585RhGNQ" name="Pushbutton : Pushbutton [1]" represents="_GdEXcgXQEei64r585RhGNQ"/>
+    <lifeline xmi:id="_XNdLcAXQEei64r585RhGNQ" name="LedMgr : LedMgr [1]" represents="_XNdLcQXQEei64r585RhGNQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1RbEcgXHEei64r585RhGNQ" name="evDisconnected_sender" covered="_QZwZIQXHEei64r585RhGNQ" message="_1RbEcAXHEei64r585RhGNQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1RbEcwXHEei64r585RhGNQ" name="evDisconnected_receiver" covered="_Q95oAAXHEei64r585RhGNQ" message="_1RbEcAXHEei64r585RhGNQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_1RbEdAXHEei64r585RhGNQ" name="Operation_1" covered="_Q95oAAXHEei64r585RhGNQ" finish="_1RbrgAXHEei64r585RhGNQ" start="_1RbEcwXHEei64r585RhGNQ" behavior="_1RbEcQXHEei64r585RhGNQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_1RbrgAXHEei64r585RhGNQ" name="Operation_1_finish" covered="_Q95oAAXHEei64r585RhGNQ" execution="_1RbEdAXHEei64r585RhGNQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9OtOogXIEei64r585RhGNQ" name="evStopAdvetising_sender" covered="_Q95oAAXHEei64r585RhGNQ" message="_9OtOoAXIEei64r585RhGNQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9Ot1sAXIEei64r585RhGNQ" name="evStopAdvetising_receiver" covered="_QZwZIQXHEei64r585RhGNQ" message="_9OtOoAXIEei64r585RhGNQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_9Ot1sQXIEei64r585RhGNQ" name="Operation_2" covered="_QZwZIQXHEei64r585RhGNQ" finish="_9Ot1sgXIEei64r585RhGNQ" start="_9Ot1sAXIEei64r585RhGNQ" behavior="_9OtOoQXIEei64r585RhGNQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_9Ot1sgXIEei64r585RhGNQ" name="Operation_2_finish" covered="_QZwZIQXHEei64r585RhGNQ" execution="_9Ot1sQXIEei64r585RhGNQ"/>
+    <message xmi:id="_1RbEcAXHEei64r585RhGNQ" name="evDisconnected" messageSort="asynchCall" receiveEvent="_1RbEcwXHEei64r585RhGNQ" sendEvent="_1RbEcgXHEei64r585RhGNQ" signature="_1RadYAXHEei64r585RhGNQ"/>
+    <message xmi:id="_9OtOoAXIEei64r585RhGNQ" name="evStopAdvetising" messageSort="asynchCall" receiveEvent="_9Ot1sAXIEei64r585RhGNQ" sendEvent="_9OtOogXIEei64r585RhGNQ" signature="_9OsnkAXIEei64r585RhGNQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Q95A8AXHEei64r585RhGNQ" name="Spora">
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_n4JrUAXJEei64r585RhGNQ" name="Spora">
+      <region xmi:id="_n4JrUQXJEei64r585RhGNQ" name="spora">
+        <transition xmi:id="_IRf7wAXLEei64r585RhGNQ" source="__nTBMAXJEei64r585RhGNQ" target="_uJkdsAXXEei64r585RhGNQ">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_RiEvQAXLEei64r585RhGNQ" name="setHiden()"/>
+          <trigger xmi:id="_LObMoAXbEei64r585RhGNQ" name="after(UnlinkedTimeout)"/>
+          <trigger xmi:id="_mCk0ADzjEeioE61iszTSYA" name="evPushbuttonLongPress"/>
+        </transition>
+        <transition xmi:id="_bMvf8AXaEei64r585RhGNQ" source="_adHZ0AXaEei64r585RhGNQ">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_kpE3gAXaEei64r585RhGNQ" name="init()"/>
+        </transition>
+        <transition xmi:id="_I8wjgAdxEeiVZe6039K0-w" source="_o1eSYAXNEei64r585RhGNQ" target="_yfOmgAdwEeiVZe6039K0-w">
+          <trigger xmi:id="_VbyzEAedEeicwMZx6sE2Ig" name="evMotionDetec(evtMotion)"/>
+        </transition>
+        <transition xmi:id="_ViD3IAdxEeiVZe6039K0-w" source="_yfOmgAdwEeiVZe6039K0-w" target="_TY9coAdxEeiVZe6039K0-w">
+          <trigger xmi:id="_7ijywAdxEeiVZe6039K0-w" name="after(MotionIndicatorTout)"/>
+        </transition>
+        <transition xmi:id="_OYZJUAe_EeicwMZx6sE2Ig" source="_adHZ0AXaEei64r585RhGNQ" target="_o1eSYAXNEei64r585RhGNQ">
+          <trigger xmi:id="_yfkL0Ae_EeicwMZx6sE2Ig" name="init()"/>
+        </transition>
+        <transition xmi:id="_zQTvkA2OEeiY0vWdPh000g" kind="internal" source="_yfOmgAdwEeiVZe6039K0-w" target="_yfOmgAdwEeiVZe6039K0-w">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_z4slQA2OEeiY0vWdPh000g" name="updateCfg(cfg)"/>
+          <trigger xmi:id="_z4tMUA2OEeiY0vWdPh000g" name="evSporaCfg(cfg)"/>
+        </transition>
+        <transition xmi:id="_31LMQC0nEeiI7ukfNdXgtQ" kind="internal" source="_yfOmgAdwEeiVZe6039K0-w" target="_yfOmgAdwEeiVZe6039K0-w">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_46MTkC0nEeiI7ukfNdXgtQ" name="sendCfg()"/>
+          <trigger xmi:id="_46M6oC0nEeiI7ukfNdXgtQ" name="evSporaGetCfg"/>
+        </transition>
+        <subvertex xmi:type="uml:State" xmi:id="_o1eSYAXNEei64r585RhGNQ" name="steady">
+          <region xmi:id="_tKfK0AXNEei64r585RhGNQ" name="steady">
+            <transition xmi:id="_GQPHQAXOEei64r585RhGNQ" source="__AI6kAXJEei64r585RhGNQ" target="__nTBMAXJEei64r585RhGNQ"/>
+            <transition xmi:id="_4WabQAXOEei64r585RhGNQ" source="__nTBMAXJEei64r585RhGNQ" target="_AQP3kAXKEei64r585RhGNQ">
+              <trigger xmi:id="_Be-iQAXPEei64r585RhGNQ" name="evConnected"/>
+            </transition>
+            <transition xmi:id="_yRA0MAXXEei64r585RhGNQ" source="_uJkdsAXXEei64r585RhGNQ" target="__nTBMAXJEei64r585RhGNQ">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_1rYCQAXXEei64r585RhGNQ" name="setDiscoverable()"/>
+              <trigger xmi:id="_jpC1gAXoEei64r585RhGNQ" name="evPushbuttonLongPress"/>
+            </transition>
+            <transition xmi:id="_4FCoUAXXEei64r585RhGNQ" source="_AQP3kAXKEei64r585RhGNQ" target="__nTBMAXJEei64r585RhGNQ">
+              <trigger xmi:id="_5YoXIAXXEei64r585RhGNQ" name="evDisconnected"/>
+            </transition>
+            <transition xmi:id="_bdg-gAXoEei64r585RhGNQ" source="_AQP3kAXKEei64r585RhGNQ" target="__nTBMAXJEei64r585RhGNQ">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_hyzsoAXoEei64r585RhGNQ" name="disconnect()"/>
+              <trigger xmi:id="_iqFS4AXoEei64r585RhGNQ" name="evPushbuttonLongPress"/>
+            </transition>
+            <transition xmi:id="_J4uqYAXuEei64r585RhGNQ" source="_AQP3kAXKEei64r585RhGNQ" target="_yfOmgAdwEeiVZe6039K0-w">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_Pn1iQAXuEei64r585RhGNQ" name="sendMotion(evtMotion)"/>
+              <trigger xmi:id="_UBFIkAedEeicwMZx6sE2Ig" name="evMotionDetect(evtMotion)"/>
+            </transition>
+            <transition xmi:id="_hT1EIAe1EeicwMZx6sE2Ig" source="_AQP3kAXKEei64r585RhGNQ" target="_yfOmgAdwEeiVZe6039K0-w">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_uq_SgAe1EeicwMZx6sE2Ig" name="sendButton()"/>
+              <trigger xmi:id="_Yc2_QAe8EeicwMZx6sE2Ig" name="evPushButtonShortPress"/>
+            </transition>
+            <transition xmi:id="_MoxpIA2OEeiY0vWdPh000g" kind="internal" source="_o1eSYAXNEei64r585RhGNQ" target="_o1eSYAXNEei64r585RhGNQ">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_NO-tgA2OEeiY0vWdPh000g" name="updateCfg(cfg)"/>
+              <trigger xmi:id="_NO-tgQ2OEeiY0vWdPh000g" name="evSporaCfg(cfg)"/>
+            </transition>
+            <transition xmi:id="_0H_LwC3KEeiqcdQQ1ZOIQA" kind="internal" source="_AQP3kAXKEei64r585RhGNQ" target="_AQP3kAXKEei64r585RhGNQ">
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_87fBsC3KEeiqcdQQ1ZOIQA" name="sendData()"/>
+              <trigger xmi:id="_87fowC3KEeiqcdQQ1ZOIQA" name="evSporaGetData"/>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="__nTBMAXJEei64r585RhGNQ" name="unlinked">
+              <entry xmi:type="uml:OpaqueBehavior" xmi:id="_mDKoUDx_EeigxJiYaL1qrA" name="battStatEnable()"/>
+              <exit xmi:type="uml:OpaqueBehavior" xmi:id="_gf4wgDyAEeigxJiYaL1qrA" name="battStatDisable()"/>
+            </subvertex>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="__AI6kAXJEei64r585RhGNQ" name="Initial1"/>
+            <subvertex xmi:type="uml:State" xmi:id="_AQP3kAXKEei64r585RhGNQ" name="linked">
+              <entry xmi:type="uml:OpaqueBehavior" xmi:id="_Xc52wAe_EeicwMZx6sE2Ig" name="linkStatusOn()"/>
+              <exit xmi:type="uml:OpaqueBehavior" xmi:id="_YF038Ae_EeicwMZx6sE2Ig" name="linkStatusOff()"/>
+            </subvertex>
+            <subvertex xmi:type="uml:State" xmi:id="_uJkdsAXXEei64r585RhGNQ" name="hiden">
+              <entry xmi:type="uml:OpaqueBehavior" xmi:id="_HvwewDyAEeigxJiYaL1qrA" name="battStatEnable()"/>
+              <exit xmi:type="uml:OpaqueBehavior" xmi:id="_juBgcDyAEeigxJiYaL1qrA" name="battStatDisable()"/>
+            </subvertex>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_TY9coAdxEeiVZe6039K0-w" name="ShallowHistory2" kind="shallowHistory"/>
+          </region>
+        </subvertex>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_adHZ0AXaEei64r585RhGNQ" name="Initial1"/>
+        <subvertex xmi:type="uml:State" xmi:id="_yfOmgAdwEeiVZe6039K0-w" name="motionDetect">
+          <entry xmi:type="uml:OpaqueBehavior" xmi:id="_jxr-kAdxEeiVZe6039K0-w" name="onMotion()"/>
+          <exit xmi:type="uml:OpaqueBehavior" xmi:id="_kwV_MAdxEeiVZe6039K0-w" name="offMotion()"/>
+        </subvertex>
+      </region>
+    </ownedBehavior>
+    <ownedOperation xmi:id="_1RadYAXHEei64r585RhGNQ" name="Operation_1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GdEXcAXQEei64r585RhGNQ" name="Pushbutton">
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_izLRYAXQEei64r585RhGNQ" name="Push statemachine">
+      <region xmi:id="_izLRYQXQEei64r585RhGNQ" name="Region1">
+        <transition xmi:id="_C-BBMAXREei64r585RhGNQ" source="_70mHcAXQEei64r585RhGNQ" target="__F6HMAXQEei64r585RhGNQ">
+          <trigger xmi:id="_yR1iUAXREei64r585RhGNQ" name="evPushbuttonPress"/>
+        </transition>
+        <transition xmi:id="_GJwkcAXREei64r585RhGNQ" source="__F6HMAXQEei64r585RhGNQ" target="_KVQ7kAXREei64r585RhGNQ">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_km41QAXREei64r585RhGNQ" name="buttonLongPress()"/>
+          <trigger xmi:id="_II3VcAXREei64r585RhGNQ" name="after(SHORT2LONG)"/>
+        </transition>
+        <transition xmi:id="_PVMZQAXREei64r585RhGNQ" source="_KVQ7kAXREei64r585RhGNQ" target="_70mHcAXQEei64r585RhGNQ">
+          <trigger xmi:id="_SGwh8AXREei64r585RhGNQ" name="evPushbuttonRelease"/>
+        </transition>
+        <transition xmi:id="_l5HSIAXREei64r585RhGNQ" source="__F6HMAXQEei64r585RhGNQ" target="_70mHcAXQEei64r585RhGNQ">
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_pgawAAXREei64r585RhGNQ" name="buttonShortPress()"/>
+          <trigger xmi:id="_pgbXEAXREei64r585RhGNQ" name="evPushbuttonRelease"/>
+        </transition>
+        <subvertex xmi:type="uml:State" xmi:id="_70mHcAXQEei64r585RhGNQ" name="released" visibility="public"/>
+        <subvertex xmi:type="uml:State" xmi:id="__F6HMAXQEei64r585RhGNQ" name="press"/>
+        <subvertex xmi:type="uml:State" xmi:id="_KVQ7kAXREei64r585RhGNQ" name="longPress"/>
+      </region>
+    </ownedBehavior>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XNckYAXQEei64r585RhGNQ" name="LedMgr"/>
+</uml:Model>
